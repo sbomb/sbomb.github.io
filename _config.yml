@@ -1,3 +1,4 @@
-theme: jekyll-theme-minimal
+#theme: jekyll-theme-minimal
+theme: minima
 title: JAVA 思录
 email: zengfei@zf520.net.cn
