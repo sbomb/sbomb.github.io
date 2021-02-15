@@ -4,6 +4,7 @@ layout: default
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
+   <!--  <script src="{{ "/assets/js/message.js" | relative_url }}"></script> -->
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
       {%- assign date_format = site.minima.date_format | default: "%m %-d, %Y" -%}
@@ -34,5 +35,13 @@ layout: default
     {%- include disqus_comments.html -%}
   {%- endif -%}
   <div >本文字数：{{ page.content | number_of_words }}</div>
+  <div id="message">message </div>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      console.log('1111') ;
+      $("#message").html("test message") ;
+    });
+
+  </script>
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
