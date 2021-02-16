@@ -34,7 +34,7 @@ layout: default
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
-  <div >本文字数：{{ page.content | number_of_words }}</div>
+  <div >本文字数：{{ page.content | size }}</div>
   <div id="message">message </div>
   <script type="text/javascript">
     $(document).ready(function(){
