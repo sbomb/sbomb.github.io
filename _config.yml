@@ -32,6 +32,7 @@ permalink: /:year/:month/:title.html
 favicon: /favicon.ico
 # Build settings
 theme: minima
+google_analytics: G-RWS5XJYT8P
 plugins:
   - jekyll-feed
   - jekyll-sitemap
