@@ -35,7 +35,6 @@ layout: default
     {%- include disqus_comments.html -%}
   {%- endif -%}
   <div >本文字数：{{ page.content | strip_html | strip_newlines | split: "" | size }}</div>
-  <!-- <div><img src=""></div> -->
   <div id="message">message </div>
   <script type="text/javascript">
     $(document).ready(function(){
