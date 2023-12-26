@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "负载均衡浅谈"
+title:  "firewall-cmd转发"
 description: 负载均衡
 tag: [负载均衡,网络转发,网络流量,七层负载,四层负载,zf520,java思录]
 date:   2023-09-14 11:58:00 +0800
