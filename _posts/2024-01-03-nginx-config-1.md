@@ -3,7 +3,7 @@ layout: post
 title:  "nginx常用配置-I"
 description: nginx常用配置
 tag: [nginx,config,zf520,java思录]
-date:   2023-12-26 08:50:35 +0800
+date:   2024-01-03 08:50:35 +0800
 categories: Linux
 author: ZF520
 ---
