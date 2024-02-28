@@ -36,11 +36,7 @@ layout: default
   {%- endif -%}
   <div >本文字数：{{ page.content | strip_html | strip_newlines | split: "" | size }}</div>
   <div id="message">message </div>
-  <p>         <div style="width:300px;margin:0 auto; padding:20px 0;">
-    <center><a target="_blank" href="https://beian.miit.gov.cn/" >鄂ICP备19014071号-1 &copy;zf 2018-2020</a><br/>
-                <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=42018502003891">鄂公网安备 42018502003891号</a></center>
-            </div>
-         </p>
+  
   <script type="text/javascript">
     $(document).ready(function(){
       $("#message").html("test message") ;
