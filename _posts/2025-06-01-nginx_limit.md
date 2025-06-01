@@ -6,8 +6,6 @@ tag: [nginx,limit,java ,zf520,java思录]
 date:   2025-06-01 08:50:35 +0800
 categories: nginx
 author: ZF520
-typora-root-url: ./..
-typora-copy-images-to: ./..\assets\images
 ---
 
 
