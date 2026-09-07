@@ -126,7 +126,9 @@ public static int fibMatrix(int n) {
         if (n == 0) {
             return 0;
         }
+    {% raw %}
         int[][] mat = {{1, 1}, {1, 0}};
+    {% endraw %}
         int[][] result = matrixPower(mat, n - 1);
         return result[0][0];
     }
