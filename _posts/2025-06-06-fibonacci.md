@@ -143,7 +143,9 @@ public static int fibMatrix(int n) {
     }
     
     private static int[][] matrixPower(int[][] mat, int power) {
+        {% raw %}
         int[][] result = {{1, 0}, {0, 1}};
+        {% endraw %}
         while (power > 0) {
             if (power % 2 == 1) {
                 result = matrixMult(result, mat);
